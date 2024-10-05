@@ -7,10 +7,6 @@ const faqs = [
     answer: "Our system uses a combination of QR codes, geolocation, and facial recognition to accurately track attendance in real-time."
   },
   {
-    question: "Can parents access their child's attendance records?",
-    answer: "Yes, parents have access to a dedicated portal where they can view their child's attendance history and receive notifications."
-  },
-  {
     question: "Is the system compatible with existing school management software?",
     answer: "Absolutely! Our attendance tracker is designed to integrate seamlessly with most popular school management systems."
   },
