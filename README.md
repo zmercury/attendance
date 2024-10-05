@@ -20,7 +20,7 @@ This project is an Attendance Management System built with Next.js. It aims to s
    ```
 2. Navigate to the project directory:
    ```bash
-   cd ai-documentation-assistant
+   cd attendance
    ```
 3. Install dependencies:
    ```bash
