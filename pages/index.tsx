@@ -12,7 +12,6 @@ const Home = () => {
       <main>
         <Functionalities />
         <FAQ />
-        {/* Add more sections here as needed */}
       </main>
       <Footer />
     </div>
