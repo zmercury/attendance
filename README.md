@@ -6,10 +6,10 @@ This project is an Attendance Management System built with Next.js. It aims to s
 
 ## ✨ Features
 
-- 🤖 Easy Attendance Tracking
-- 🤖 Student Management
-- 🤖 Calendar Integration
-- 🤖 Detailed Reports
+- 🖲️ Easy Attendance Tracking
+- 🧑‍🤝‍🧑 Student Management
+- 📅 Calendar Integration
+- 📃 Detailed Reports
 - ⚡ Fast performance with Next.js
 
 ## 🛠️ Installation
