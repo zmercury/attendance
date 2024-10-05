@@ -12,6 +12,18 @@ This project is an Attendance Management System built with Next.js. It aims to s
 - 📃 Detailed Reports
 - ⚡ Fast performance with Next.js
 
+## 📃 Technologies Used
+
+- Next.js
+- Tailwind CSS
+- Supabase
+- Shadcn/ui
+- Radix UI
+- Lucide Icons
+- Recharts
+- Date-fns
+- Framer Motion
+
 ## 🛠️ Installation
 
 1. Clone the repository:
