@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check --ignore-unknown \"**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
     "@chakra-ui/react": "^2.9.4",
