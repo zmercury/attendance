@@ -26,5 +26,10 @@ export const useToast = () => {
         ...options,
         variant: "default",
       }),
+    // info: (options: Omit<ToastOptions, "variant">) =>
+    //   toast({
+    //     ...options,
+    //     variant: "default",
+    //   }),
   }
 }
