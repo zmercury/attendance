@@ -1,15 +1,15 @@
-# AI-Powered Documentation Assistant
+# Attendance Management System
 
 ## 🚀 About
 
-This project is an AI-powered documentation assistant built with Next.js. It aims to revolutionize the way developers interact with and create documentation, making the process more intuitive and efficient.
+This project is an Attendance Management System built with Next.js. It aims to streamline the process of tracking and managing student attendance in educational institutions.
 
 ## ✨ Features
 
-- 🤖 AI-powered documentation generation
-- 📚 Interactive documentation browsing
-- 🔍 Smart search functionality
-- 🎨 Clean and responsive UI
+- 🤖 Easy Attendance Tracking
+- 🤖 Student Management
+- 🤖 Calendar Integration
+- 🤖 Detailed Reports
 - ⚡ Fast performance with Next.js
 
 ## 🛠️ Installation
