@@ -24,7 +24,7 @@ This project is an Attendance Management System built with Next.js. It aims to s
 - Date-fns
 - Framer Motion
 
-## 🛠️ Installation
+<!-- ## 🛠️ Installation
 
 1. Clone the repository:
    ```bash
@@ -48,6 +48,6 @@ To run the project locally:
    npm run dev
    ```
 2. Open your browser and navigate to `http://localhost:port`.
-
+ -->
 
 
