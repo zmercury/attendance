@@ -50,4 +50,10 @@ To run the project locally:
 2. Open your browser and navigate to `http://localhost:port`.
  -->
 
+### Example Screenshots
 
+<img src="./example_images/1.png">
+<img src="./example_images/2.png">
+<img src="./example_images/3.png">
+<img src="./example_images/4.png">
+<img src="./example_images/5.png">
