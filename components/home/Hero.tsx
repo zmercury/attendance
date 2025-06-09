@@ -35,21 +35,7 @@ const Hero: React.FC = () => {
                             <PlayCircle className="ml-2 h-5 w-5" />
                         </Button>
                     </div>
-                    
-                    {/* Updated contributor names section with gradient text */}
-                    <div className="mt-16">
-                        <h3 className="text-xl mb-4 text-primary font-semibold">Made by</h3>
-                        <ul className="flex flex-wrap justify-center gap-4">
-                            {["Nikhil Bastola", "Radip Tolang", "Nitya Karki", "Sushmita Bhujhel"].map((name, index) => (
-                                <li key={index} className="px-4 py-2 rounded-full bg-secondary">
-                                    <span className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 animate-gradient bg-300%">
-                                        {name}
-                                    </span>
-                                </li>
-                            ))}
-                        </ul>
                     </div>
-                </div>
             </div>
         </section>
     );
