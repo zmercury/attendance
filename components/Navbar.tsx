@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useTheme } from 'next-themes';
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { Button } from './ui/button';
-import { Moon, Sun, Menu } from 'lucide-react';
+import { Moon, Sun, Menu, User } from 'lucide-react';
 import { useRouter } from 'next/router';
 import { supabase } from '../utils/supabaseClient';
 import { ThemeToggle } from './ThemeToggle';
@@ -46,9 +46,16 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
           {user ? (
             <>
               <NavLink href="/dashboard">Dashboard</NavLink>
-              <Button onClick={handleSignOut} variant="outline">
-                Sign Out
-              </Button>
+              <div className="flex items-center space-x-3">
+                <div className="flex items-center space-x-2 px-3 py-1.5 rounded-full bg-secondary/50">
+                  <span className="text-1xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 animate-gradient bg-300%">
+                    Hi, {user.email?.split('@')[0] || 'User'}
+                  </span>
+                </div>
+                <Button onClick={handleSignOut} variant="outline">
+                  Sign Out
+                </Button>
+              </div>
             </>
           ) : (
             <Button onClick={() => router.push('/login')} variant="outline">
@@ -90,6 +97,12 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
                 {user ? (
                   <>
                     <NavLink href="/dashboard">Dashboard</NavLink>
+                    <div className="flex items-center space-x-2 px-3 py-1.5 rounded-full bg-secondary/50">
+                      <User className="h-4 w-4 text-primary" />
+                      <span className="text-sm font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 animate-gradient bg-300%">
+                        {user.email?.split('@')[0] || 'User'}
+                      </span>
+                    </div>
                     <Button onClick={handleSignOut} variant="outline">
                       Sign Out
                     </Button>
